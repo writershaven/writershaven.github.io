@@ -13,7 +13,7 @@ h1 {
     font-size: 250%;
 }
 h2 { 
-    line-height: 12.5%;
+    
     font-family: monospace;
 }
 .head {
@@ -25,4 +25,16 @@ h2 {
 }
 h3 {
     font-family: 'Noto Serif', Times, serif;
-    font-size: 250%; }   
+    font-size: 250%; 
+}   
+.content, .contentr {
+    background-color: rgba(0, 0, 0, 0.411);     padding-bottom: 2.5%;     background-size: 100% 100%;     border-radius: 30px;     max-width: 50%;
+}
+.content{
+    padding-left: 2.5%;
+   
+}
+.content h3 {
+    padding-left: 2%;
+    padding: 0, 2.5%; margin: 0;
+}
