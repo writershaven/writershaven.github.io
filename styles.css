@@ -26,8 +26,6 @@ body {
   background-color: rgba(0, 0, 0, 0.3882352941);
 }
 .topnav a {
-  animation: hovernav 0.5s ease;
-  animation-fill-mode: backwards;
   float: left;
   display: block;
   color: #f2f2f2;
@@ -36,23 +34,23 @@ body {
   text-decoration: none;
   font-size: 34px;
 }
-.topnav a:hover {
-  animation: hovernav 0.5s ease;
-  animation-fill-mode: forwards;
+.topnav :hover {
+  background-color: #9c7542;
   color: rgb(255, 255, 255);
 }
-.topnav a.active {
-  animation: hovernav 0.5s ease;
+.topnav .active {
+  background-color: #9c7542;
+  animation-fill-mode: forwards;
   color: white;
 }
 .topnav .icon {
   display: none;
 }
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {
+  .topnav :not(:first-child) {
     display: none;
   }
-  .topnav a.icon {
+  .topnav .icon {
     float: right;
     display: block;
   }
@@ -77,13 +75,34 @@ body {
   padding-left: 16px;
 }
 
-@keyframes hovernav {
-  100% {
-    background-color: #9c7542;
-  }
-}
+@keyframes hovernav {}
 p {
   width: 75%;
+}
+
+table, th, td {
+  font-size: 120%;
+  text-align: left;
+  font-weight: 100;
+  width: 50%;
+  align-self: center;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 150%;
+}
+a a:hover {
+  text-decoration: underline;
+}
+
+i {
+  font-size: 250%;
 }
 
 /*# sourceMappingURL=styles.css.map */
