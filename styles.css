@@ -13,12 +13,12 @@ body {
   font-family: Texturina;
 }
 .head h1 {
-  line-height: 0.6;
+  line-height: 50%;
   font-size: 250%;
 }
 .head h2, .head h3, .head h4, .head h5, .head h6 {
   font-size: 200%;
-  line-height: 0.6;
+  line-height: 50%;
 }
 
 .topnav {
