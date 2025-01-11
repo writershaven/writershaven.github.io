@@ -18,7 +18,8 @@ font-family: Texturina;
     }
     h2,h3,h4,h5,h6 {
     font-size: 200%;
-    line-height: 50%;
+    padding-top: -5px;
+    line-height: 100%;
     }
 }
 .topnav {   
@@ -75,8 +76,9 @@ table,th,td {
 font-size: 120%;
 text-align: left;
 font-weight: 100;
-width: 50%;
+min-width: 50%;
 align-self: center;
+vertical-align: top;
 }
 .bold {
     font-weight: 500;
